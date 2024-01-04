@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #525050;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #525050;
+  }
+
+  
+  nav {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #0d0d0d;
+    width: 100vw;
+    height: 20vh;
+    
+  } 
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search form{
+    z-index: 100;
+    position: relative;
+    top: -4vw;
+    background-color: transparent;
+  }
+
+  .box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: 100vw;
+    height: 40vh;
+  }
+
+  @media screen and (min-width: 928px) and (max-width: 2000px){
+    .search form{
+        z-index: 100;
+        position: relative;
+        top: -2vw;
+        background-color: transparent;
+    }
+  }
+
+  .footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .Todolist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+/* Add this to your existing CSS */
+.no-items {
+    text-align: center;
+    display: none; /* Initially hide the element */
+}
+
+.no-items img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+ /*
+.Todolist > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Todolist .box {
+    position: relative;
+    width: 100%;
+}
+ 
+
+.footer-list {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-list > div, .footer-list hr {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer-list hr {
+    width: 100%;
+    border: 1px solid #fff;
+} */
+
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #525050;
+    flex-direction: row;
+} */
